@@ -28,5 +28,13 @@ int main()
 {
 	const int N = 5;
 	int arr[N] = { 1,3,5,7,9 };
+	if (is_sort_asc(arr, N)) {
+		cout << "Array=SORTED\n";
+
+	}
+	else
+	{
+		cout << "Array!= sorted\n";
+	}
 
 }
